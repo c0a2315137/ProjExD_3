@@ -144,7 +144,7 @@ class Bomb:
 class Score:
     def __init__(self):
         self.fonto = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
-        self.color = (0, 0, 255)
+        self.color = (0, 0, 255) #スコア文字列の表示色
         self.score = 0
         self.img = self.fonto.render("表示させる文字列", 0, self.color)
         self.center = 100, HEIGHT-50
